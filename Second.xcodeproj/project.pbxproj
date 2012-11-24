@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9446036B1658E00C00B41DCC /* SimulationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9446036A1658E00C00B41DCC /* SimulationView.m */; };
+		944603721659024300B41DCC /* Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = 944603711659024300B41DCC /* Cell.m */; };
+		94460374165906D700B41DCC /* rsz_tree-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 94460373165906D700B41DCC /* rsz_tree-icon.png */; };
+		94984773165D4EE000413A67 /* Hedgehog.m in Sources */ = {isa = PBXBuildFile; fileRef = 94984772165D4EE000413A67 /* Hedgehog.m */; };
+		94984777165D4EF200413A67 /* Tree.m in Sources */ = {isa = PBXBuildFile; fileRef = 94984776165D4EF200413A67 /* Tree.m */; };
+		9498477A165D4EF700413A67 /* Apple.m in Sources */ = {isa = PBXBuildFile; fileRef = 94984779165D4EF700413A67 /* Apple.m */; };
 		E9BBBBB91657A1000072F10A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9BBBBB81657A1000072F10A /* UIKit.framework */; };
 		E9BBBBBB1657A1000072F10A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9BBBBBA1657A1000072F10A /* Foundation.framework */; };
 		E9BBBBBD1657A1000072F10A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9BBBBBC1657A1000072F10A /* CoreGraphics.framework */; };
@@ -18,9 +24,26 @@
 		E9BBBBCF1657A1000072F10A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E9BBBBCE1657A1000072F10A /* Default@2x.png */; };
 		E9BBBBD11657A1000072F10A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E9BBBBD01657A1000072F10A /* Default-568h@2x.png */; };
 		E9BBBBD41657A1000072F10A /* Second.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E9BBBBD21657A1000072F10A /* Second.xcdatamodeld */; };
+		E9BBBBE11657A13C0072F10A /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9BBBBDF1657A13C0072F10A /* MainViewController.m */; };
+		E9BBBBE21657A13C0072F10A /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9BBBBE01657A13C0072F10A /* MainViewController.xib */; };
+		E9BBBBE71657A2B30072F10A /* StatisticsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9BBBBE51657A2B30072F10A /* StatisticsViewController.m */; };
+		E9BBBBE81657A2B30072F10A /* StatisticsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9BBBBE61657A2B30072F10A /* StatisticsViewController.xib */; };
+		E9BBBBEF1657B31C0072F10A /* SimulationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9BBBBED1657B31C0072F10A /* SimulationViewController.m */; };
+		E9BBBBF01657B31C0072F10A /* SimulationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9BBBBEE1657B31C0072F10A /* SimulationViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		944603691658E00C00B41DCC /* SimulationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimulationView.h; sourceTree = "<group>"; };
+		9446036A1658E00C00B41DCC /* SimulationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimulationView.m; sourceTree = "<group>"; };
+		944603701659024300B41DCC /* Cell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cell.h; sourceTree = "<group>"; };
+		944603711659024300B41DCC /* Cell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cell.m; sourceTree = "<group>"; };
+		94460373165906D700B41DCC /* rsz_tree-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "rsz_tree-icon.png"; path = "../../DesktopApp/rsz_tree-icon.png"; sourceTree = "<group>"; };
+		94984771165D4EE000413A67 /* Hedgehog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hedgehog.h; sourceTree = "<group>"; };
+		94984772165D4EE000413A67 /* Hedgehog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Hedgehog.m; sourceTree = "<group>"; };
+		94984775165D4EF200413A67 /* Tree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Tree.h; path = ../Tree.h; sourceTree = "<group>"; };
+		94984776165D4EF200413A67 /* Tree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Tree.m; path = ../Tree.m; sourceTree = "<group>"; };
+		94984778165D4EF700413A67 /* Apple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Apple.h; path = ../Apple.h; sourceTree = "<group>"; };
+		94984779165D4EF700413A67 /* Apple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Apple.m; path = ../Apple.m; sourceTree = "<group>"; };
 		E9BBBBB41657A1000072F10A /* Second.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Second.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9BBBBB81657A1000072F10A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E9BBBBBA1657A1000072F10A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -36,6 +59,15 @@
 		E9BBBBCE1657A1000072F10A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		E9BBBBD01657A1000072F10A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		E9BBBBD31657A1000072F10A /* Second.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Second.xcdatamodel; sourceTree = "<group>"; };
+		E9BBBBDE1657A13C0072F10A /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		E9BBBBDF1657A13C0072F10A /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		E9BBBBE01657A13C0072F10A /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		E9BBBBE41657A2B30072F10A /* StatisticsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatisticsViewController.h; sourceTree = "<group>"; };
+		E9BBBBE51657A2B30072F10A /* StatisticsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatisticsViewController.m; sourceTree = "<group>"; };
+		E9BBBBE61657A2B30072F10A /* StatisticsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StatisticsViewController.xib; sourceTree = "<group>"; };
+		E9BBBBEC1657B31C0072F10A /* SimulationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimulationViewController.h; sourceTree = "<group>"; };
+		E9BBBBED1657B31C0072F10A /* SimulationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimulationViewController.m; sourceTree = "<group>"; };
+		E9BBBBEE1657B31C0072F10A /* SimulationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SimulationViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,10 +116,29 @@
 		E9BBBBC01657A1000072F10A /* Second */ = {
 			isa = PBXGroup;
 			children = (
+				94984778165D4EF700413A67 /* Apple.h */,
+				94984779165D4EF700413A67 /* Apple.m */,
+				94984775165D4EF200413A67 /* Tree.h */,
+				94984776165D4EF200413A67 /* Tree.m */,
 				E9BBBBC91657A1000072F10A /* AppDelegate.h */,
 				E9BBBBCA1657A1000072F10A /* AppDelegate.m */,
 				E9BBBBD21657A1000072F10A /* Second.xcdatamodeld */,
+				94984771165D4EE000413A67 /* Hedgehog.h */,
+				94984772165D4EE000413A67 /* Hedgehog.m */,
 				E9BBBBC11657A1000072F10A /* Supporting Files */,
+				E9BBBBDE1657A13C0072F10A /* MainViewController.h */,
+				E9BBBBDF1657A13C0072F10A /* MainViewController.m */,
+				E9BBBBE01657A13C0072F10A /* MainViewController.xib */,
+				E9BBBBE41657A2B30072F10A /* StatisticsViewController.h */,
+				E9BBBBE51657A2B30072F10A /* StatisticsViewController.m */,
+				E9BBBBE61657A2B30072F10A /* StatisticsViewController.xib */,
+				E9BBBBEC1657B31C0072F10A /* SimulationViewController.h */,
+				E9BBBBED1657B31C0072F10A /* SimulationViewController.m */,
+				E9BBBBEE1657B31C0072F10A /* SimulationViewController.xib */,
+				944603691658E00C00B41DCC /* SimulationView.h */,
+				9446036A1658E00C00B41DCC /* SimulationView.m */,
+				944603701659024300B41DCC /* Cell.h */,
+				944603711659024300B41DCC /* Cell.m */,
 			);
 			path = Second;
 			sourceTree = "<group>";
@@ -95,6 +146,7 @@
 		E9BBBBC11657A1000072F10A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				94460373165906D700B41DCC /* rsz_tree-icon.png */,
 				E9BBBBC21657A1000072F10A /* Second-Info.plist */,
 				E9BBBBC31657A1000072F10A /* InfoPlist.strings */,
 				E9BBBBC61657A1000072F10A /* main.m */,
@@ -161,6 +213,10 @@
 				E9BBBBCD1657A1000072F10A /* Default.png in Resources */,
 				E9BBBBCF1657A1000072F10A /* Default@2x.png in Resources */,
 				E9BBBBD11657A1000072F10A /* Default-568h@2x.png in Resources */,
+				E9BBBBE21657A13C0072F10A /* MainViewController.xib in Resources */,
+				E9BBBBE81657A2B30072F10A /* StatisticsViewController.xib in Resources */,
+				E9BBBBF01657B31C0072F10A /* SimulationViewController.xib in Resources */,
+				94460374165906D700B41DCC /* rsz_tree-icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -174,6 +230,14 @@
 				E9BBBBC71657A1000072F10A /* main.m in Sources */,
 				E9BBBBCB1657A1000072F10A /* AppDelegate.m in Sources */,
 				E9BBBBD41657A1000072F10A /* Second.xcdatamodeld in Sources */,
+				E9BBBBE11657A13C0072F10A /* MainViewController.m in Sources */,
+				E9BBBBE71657A2B30072F10A /* StatisticsViewController.m in Sources */,
+				E9BBBBEF1657B31C0072F10A /* SimulationViewController.m in Sources */,
+				9446036B1658E00C00B41DCC /* SimulationView.m in Sources */,
+				944603721659024300B41DCC /* Cell.m in Sources */,
+				94984773165D4EE000413A67 /* Hedgehog.m in Sources */,
+				94984777165D4EF200413A67 /* Tree.m in Sources */,
+				9498477A165D4EF700413A67 /* Apple.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +343,7 @@
 				E9BBBBD91657A1000072F10A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

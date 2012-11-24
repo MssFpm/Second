@@ -1,4 +1,29 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model name="Test1.xcdatamodel" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
-    <elements/>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1811" systemVersion="12C60" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Apple" representedClassName="Apple" syncable="YES">
+        <attribute name="state" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="weight" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <relationship name="hedgehog" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Hedgehog" inverseName="apples" inverseEntity="Hedgehog" syncable="YES"/>
+        <relationship name="tree" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Tree" inverseName="apples" inverseEntity="Tree" syncable="YES"/>
+    </entity>
+    <entity name="Hedgehog" representedClassName="Hedgehog" syncable="YES">
+        <attribute name="age" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="speed" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <relationship name="apples" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Apple" inverseName="hedgehog" inverseEntity="Apple" syncable="YES"/>
+    </entity>
+    <entity name="Tree" representedClassName="Tree" syncable="YES">
+        <attribute name="age" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="avgWeight" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="probabilityOfDecay" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="probabilityOfWorminess" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="timeOfRipening" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="apples" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Apple" inverseName="tree" inverseEntity="Apple" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Apple" positionX="169" positionY="216" width="128" height="118"/>
+        <element name="Hedgehog" positionX="-81" positionY="153" width="128" height="88"/>
+        <element name="Tree" positionX="-81" positionY="279" width="128" height="148"/>
+    </elements>
 </model>
